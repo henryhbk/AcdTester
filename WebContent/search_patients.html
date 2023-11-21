@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Patient Search</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+<h2>ACD/MIMIC III v1.4 testing environment</h2>
+<h3>Patient Search</h3>
+<form action="/patient">
+<div class="mb-3">
+    <label for="patient_id" class="form-label">Patient Subject ID</label>
+    <input type="patient_id" class="form-control" id="patient_id" aria-describedby="idHelp">
+    <div id="idHelp" class="form-text">the medical record id for the patient </div>
+  </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project AcdTester with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/../.."/>
+    <property name="dir.jarfile" value="/Users/henryhbk/Desktop"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/AcdTester.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.ibm.nlp.Tester"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ fhir-client-4.2.3.jar fhir-core-4.2.3.jar fhir-model-4.2.3.jar antlr4-runtime-4.7.2.jar jcip-annotations-1.0.jar jakarta.json-1.1.5.jar jakarta.annotation-api-1.3.5.jar fhir-provider-4.2.3.jar fhir-config-4.2.3.jar cxf-rt-frontend-jaxrs-3.3.3.jar jakarta.ws.rs-api-2.1.5.jar javax.annotation-api-1.3.2.jar cxf-rt-security-3.3.3.jar cxf-rt-rs-client-3.3.3.jar cxf-rt-transports-http-3.3.3.jar cxf-core-3.3.3.jar jaxb-runtime-2.3.2.jar txw2-2.3.2.jar istack-commons-runtime-3.0.8.jar stax-ex-1.8.1.jar FastInfoset-1.2.16.jar jakarta.activation-api-1.2.1.jar woodstox-core-5.0.3.jar stax2-api-3.1.4.jar xmlschema-core-2.2.4.jar jakarta.xml.bind-api-2.3.2.jar cxf-rt-transports-http-hc-3.3.3.jar slf4j-api-1.7.26.jar jcl-over-slf4j-1.7.26.jar httpcore-nio-4.4.11.jar httpasyncclient-4.1.4.jar annotator-for-clinical-data-1.1.2.jar sdk-core-8.1.0.jar okhttp-3.12.1.jar okio-1.15.0.jar logging-interceptor-3.12.1.jar okhttp-urlconnection-3.12.1.jar commons-io-2.6.jar commons-lang3-3.8.1.jar gson-2.8.5.jar rxjava-2.2.7.jar reactive-streams-1.0.2.jar core-6.14.2.jar jersey-jsr166e-2.25.1.jar ibm-whcs-services-common-0.0.10.jar slf4j-log4j12-1.7.30.jar log4j-1.2.17.jar commons-cli-1.4.jar commons-logging-1.2.jar httpclient-4.5.6.jar httpcore-4.4.10.jar commons-codec-1.10.jar jersey-client-1.19.4.jar jersey-core-1.19.4.jar jsr311-api-1.1.1.jar javax.servlet-api-3.1.0.jar jackson-core-2.11.0.jar jackson-databind-2.11.0.jar jackson-annotations-2.9.6.jar jackson-mapper-asl-1.9.13.jar jackson-core-asl-1.9.13.jar guava-27.0-jre.jar failureaccess-1.0.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar jsr305-3.0.2.jar checker-qual-2.5.2.jar error_prone_annotations-2.2.0.jar j2objc-annotations-1.1.jar animal-sniffer-annotations-1.17.jar lanterna-3.0.3.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="${dir.workspace}/ACDTester/target/test-classes"/>
+            <fileset dir="${dir.workspace}/ACDTester/target/classes"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/fhir/fhir-client/4.2.3" includes="fhir-client-4.2.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/fhir/fhir-core/4.2.3" includes="fhir-core-4.2.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/fhir/fhir-model/4.2.3" includes="fhir-model-4.2.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/antlr/antlr4-runtime/4.7.2" includes="antlr4-runtime-4.7.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/net/jcip/jcip-annotations/1.0" includes="jcip-annotations-1.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/glassfish/jakarta.json/1.1.5" includes="jakarta.json-1.1.5.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5" includes="jakarta.annotation-api-1.3.5.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/fhir/fhir-provider/4.2.3" includes="fhir-provider-4.2.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/fhir/fhir-config/4.2.3" includes="fhir-config-4.2.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.3.3" includes="cxf-rt-frontend-jaxrs-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5" includes="jakarta.ws.rs-api-2.1.5.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/javax/annotation/javax.annotation-api/1.3.2" includes="javax.annotation-api-1.3.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-rt-security/3.3.3" includes="cxf-rt-security-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-rt-rs-client/3.3.3" includes="cxf-rt-rs-client-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.3.3" includes="cxf-rt-transports-http-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-core/3.3.3" includes="cxf-core-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2" includes="jaxb-runtime-2.3.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/glassfish/jaxb/txw2/2.3.2" includes="txw2-2.3.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.8" includes="istack-commons-runtime-3.0.8.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/jvnet/staxex/stax-ex/1.8.1" includes="stax-ex-1.8.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16" includes="FastInfoset-1.2.16.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1" includes="jakarta.activation-api-1.2.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3" includes="woodstox-core-5.0.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4" includes="stax2-api-3.1.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.4" includes="xmlschema-core-2.2.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2" includes="jakarta.xml.bind-api-2.3.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/cxf/cxf-rt-transports-http-hc/3.3.3" includes="cxf-rt-transports-http-hc-3.3.3.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/slf4j/slf4j-api/1.7.26" includes="slf4j-api-1.7.26.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.26" includes="jcl-over-slf4j-1.7.26.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.11" includes="httpcore-nio-4.4.11.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4" includes="httpasyncclient-4.1.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/watson/health/cognitive-services/annotator-for-clinical-data/1.1.2" includes="annotator-for-clinical-data-1.1.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/cloud/sdk-core/8.1.0" includes="sdk-core-8.1.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/squareup/okhttp3/okhttp/3.12.1" includes="okhttp-3.12.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/squareup/okio/okio/1.15.0" includes="okio-1.15.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/squareup/okhttp3/logging-interceptor/3.12.1" includes="logging-interceptor-3.12.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/squareup/okhttp3/okhttp-urlconnection/3.12.1" includes="okhttp-urlconnection-3.12.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/commons-io/commons-io/2.6" includes="commons-io-2.6.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/commons/commons-lang3/3.8.1" includes="commons-lang3-3.8.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/code/gson/gson/2.8.5" includes="gson-2.8.5.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/io/reactivex/rxjava2/rxjava/2.2.7" includes="rxjava-2.2.7.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/reactivestreams/reactive-streams/1.0.2" includes="reactive-streams-1.0.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/watson/developer_cloud/core/6.14.2" includes="core-6.14.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-jsr166e/2.25.1" includes="jersey-jsr166e-2.25.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/ibm/watson/health/cognitive-services/ibm-whcs-services-common/0.0.10" includes="ibm-whcs-services-common-0.0.10.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30" includes="slf4j-log4j12-1.7.30.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/log4j/log4j/1.2.17" includes="log4j-1.2.17.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/commons-cli/commons-cli/1.4" includes="commons-cli-1.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/commons-logging/commons-logging/1.2" includes="commons-logging-1.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6" includes="httpclient-4.5.6.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10" includes="httpcore-4.4.10.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/commons-codec/commons-codec/1.10" includes="commons-codec-1.10.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/sun/jersey/jersey-client/1.19.4" includes="jersey-client-1.19.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/sun/jersey/jersey-core/1.19.4" includes="jersey-core-1.19.4.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/javax/ws/rs/jsr311-api/1.1.1" includes="jsr311-api-1.1.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/javax/servlet/javax.servlet-api/3.1.0" includes="javax.servlet-api-3.1.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0" includes="jackson-core-2.11.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0" includes="jackson-databind-2.11.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.6" includes="jackson-annotations-2.9.6.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13" includes="jackson-mapper-asl-1.9.13.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13" includes="jackson-core-asl-1.9.13.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/guava/guava/27.0-jre" includes="guava-27.0-jre.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/guava/failureaccess/1.0" includes="failureaccess-1.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava" includes="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/code/findbugs/jsr305/3.0.2" includes="jsr305-3.0.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/checkerframework/checker-qual/2.5.2" includes="checker-qual-2.5.2.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0" includes="error_prone_annotations-2.2.0.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/google/j2objc/j2objc-annotations/1.1" includes="j2objc-annotations-1.1.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17" includes="animal-sniffer-annotations-1.17.jar"/>
+            <zipfileset dir="/Users/henryhbk/.m2/repository/com/googlecode/lanterna/lanterna/3.0.3" includes="lanterna-3.0.3.jar"/>
+        </jar>
+    </target>
+</project>

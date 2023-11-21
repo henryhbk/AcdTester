@@ -1,0 +1,250 @@
+TITLE:
+   Chief Complaint:  abd pain, diarrhea
+   HPI:
+   The pt is a 24 y.o. F with ESRD on HD, SLE, malignant HTN, history of
+   SVC syndrome, PRES, recently discharged on [**2142-3-12**] after admission for
+   hypertensive urgency and MSSA bacteremia from her HD line on vanc (PCN
+   allergy), presents with central crampy abdominal pain and multiple
+   episodes of watery green diarrhea, 15 episodes since 11pm last night.
+   She has had dry heaves, but no vomiting.  She says she was able to take
+   her medications.  She denies fevers, BRBPR, melena, CP, worsening SOB,
+   unusual foods, travel.  Her last HD on Saturday, when she received 1.5
+   g Vancomycin.
+   .
+   In the ED, initial vitals: BP 280/140, T 100.  SBP as high as 300.  She
+   received Labetalol 20 IV x 2 without improvement.  She was given hydral
+   20 IV without improvement, so she was placed on a Labetalol gtt @ 2
+   mg/min with improvement of SBP 220. She also received 1" of nitropaste.
+   She was given 3 mg IV dilaudid for abd pain as well as zofran.  Her
+   lactate was normal.  Abdominal pain was noted as diffuse with a benign
+   exam without focal tenderness.  KUB was unremarkable.  No CT abdomen
+   given effort to minimize radiation.  Subtherapeutic INR 1.6 on
+   coumadin. Vanc level was 27.6.  One blood culture was sent in the ED.
+   EKG showed LVH, ST depression in V6.
+   .
+   Upon arrival to the floor, her SBP was 244.  She continued to complain
+   of abdominal pain.
+   Patient admitted from: [**Hospital1 54**] ER
+   History obtained from [**Hospital 85**] Medical records
+   Allergies:
+   Penicillins
+   Rash;
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching;
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 800 units/hour
+   Other ICU medications:
+   Other medications:
+   1. Nifedipine 90 mg Tablet Sustained Release Sig: One (1) Tablet
+   Sustained Release PO DAILY (Daily).
+   2. Labetalol 300 mg Tablet Sig: Three (3) Tablet PO TID (3 times a
+   day).
+   3. Aliskiren 150 mg Tablet Sig: One (1) Tablet PO BID (2 times a day).
+   4. Hydralazine 100 mg Tablet Sig: One (1) Tablet PO every eight (8)
+   hours.
+   5. Prednisone 1 mg Tablet Sig: Four (4) Tablet PO DAILY (Daily).
+   6. Clonidine 0.3 mg/24 hr Patch Weekly Sig: One (1) Patch Weekly
+   Transdermal QWED (every Wednesday).
+   7. Clonidine 0.1 mg/24 hr Patch Weekly Sig: One (1) Patch Weekly
+   Transdermal QWED (every Wednesday).
+   8. Pantoprazole 40 mg Tablet, Delayed Release (E.C.) Sig: One (1)
+   Tablet, Delayed Release (E.C.) PO once a day.
+   Disp:*30 Tablet, Delayed Release (E.C.)(s)* Refills:*2*
+   9. Hydromorphone 2 mg Tablet Sig: One (1) Tablet PO every 4-6 hours as
+   needed for pain: Please do not drive after taking this medication.
+   Please do not take more than the prescribed amount.
+   10. Warfarin 3 mg Tablet Sig: One (1) Tablet PO once a day: Resume your
+   previous warfarin schedule and follow up with the clinic/docotor you
+   follows your INR/coumadin dosing within the next 2-3 days.
+   11. Vancomycin 1,000 mg Recon Soln Sig: One (1) gram Intravenous once
+   on [**2-15**] for 1 doses
+   Past medical history:
+   Family history:
+   Social History:
+   1. Systemic lupus erythematosus:
+   - Diagnosed [**2134**] (16 years old) when she had swollen fingers,
+   arm rash and arthralgias
+   - Previous treatment with cytoxan, cellcept; currently on
+   prednisone
+   - Complicated by uveitis ([**2139**]) and ESRD ([**2135**])
+   2. CKD/ESRD:
+   - Diagosed [**2135**]
+   - Initiated dialysis [**2137**] but refused it as of [**2140**], has
+   survived despite this
+   - PD catheter placement [**5-18**]
+   3. Malignant hypertension
+   - Baseline BPs 180's - 120's
+   - History of hypertensive crisis with seizures
+   - History of two intraparenchymal hemorrhages that were thought
+   due to the posterior reversible leukoencephalopathy syndrome,
+   associated with LE paresis in [**2140**] that resolved
+   4. Thrombocytopenia:
+   - TTP (got plasmapheresisis) versus malignant HTN
+   5. Thrombotic events:
+   - SVC thrombosis ([**2139**]); related to a catheter
+   - Negative lupus anticoagulant ([**4-/2138**], [**8-/2138**], [**9-/2140**])
+   - Negative anticardiolipin antibodies IgG and IgM x4 ([**2137**]-[**2140**])
+   - Negative Beta-2 glycoprotein antibody ([**4-/2138**], [**8-/2140**])
+   6. HOCM: Last noted on echo [**8-17**]
+   7. Anemia
+   8. History of left eye enucleation [**2139-4-20**] for fungal infection
+   9. History of vaginal bleeding [**2139**] lasting 2 months s/p
+   DepoProvera injection requiring transfusion
+   10. History of Coag negative Staph bacteremia and HD line
+   infection - [**6-16**] and [**5-17**]
+   11. Thrombotic microangiopathy: may be etiology of episodes of
+   worse hypertension given appears quite labile
+   12. Obstructive sleep apnea, AutoCPAP/ Pressure setting [**5-20**], Straight
+   CPAP/ Pressure setting 7
+   13. Left abdominal wall hematoma
+   14. MSSA bacteremia associated with HD line [**Month (only) 1088**]-[**2142-3-11**].
+   .
+   PSHx:
+   1. Placement of multiple catheters including dialysis.
+   2. Tonsillectomy.
+   3. Left eye enucleation in [**2140-4-10**].
+   4. PD catheter placement in [**2141-5-11**].
+   5. S/P Ex-lap for free air in abdomen, ex-lap normal [**2141-10-27**]
+   Negative for autoimmune diseases including sle, thrombophilic
+   disorders. Maternal grandfather with HTN, MI, stroke in 70s.
+   Occupation:
+   Drugs:
+   Tobacco:
+   Alcohol:
+   Other: Single and lives with her mother and a brother. She graduated
+   from high school. The patient is on disability. No smoking, alcohol,
+   drug use.
+   Review of systems:
+   Flowsheet Data as of [**2142-3-14**] 04:52 PM
+   Vital Signs
+   Hemodynamic monitoring
+   Fluid Balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 101 (98 - 106) bpm
+   BP: 183/96(118) {173/88(109) - 244/161(179)} mmHg
+   RR: 19 (15 - 30) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+             334 mL
+   PO:
+             150 mL
+   TF:
+   IVF:
+   184 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                     30 mL
+   Urine:
+   30 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                    304 mL
+   Respiratory
+   O2 Delivery Device: None
+   SpO2: 100%
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+        [image002.jpg]
+   Fluid analysis / Other labs: PT: 17.9  PTT: 36.0  INR: 1.6
+   Lactate:1.3
+   Chem 7:
+   137  106  38  87
+   5.1  22  5.8
+   Ca: 8.0 Mg: 1.8 P: 5.4
+   ALT: 37 AP: 151 Tbili: 0.4 Alb: 3.8
+   AST: 76 LDH:  Dbili:  TProt:
+   [**Doctor First Name 429**]:
+   Lip: 96
+   GGT:Pnd
+   Vanco: 27.6
+   WBC 6.1
+   Plt 184
+   HCT 27.7
+   N:83.5 Band:0 L:11.5 M:2.7 E:1.8 Bas:0.5
+   Imaging: KUB: Paucity of bowel gas, loss of fat planes c/w ascites.
+   High grade obstruction cannot be ruled-out.
+   Assessment and Plan
+   A/Pt: 24 y.o F with SLE, ESRD on HD and malignant HTN presenting with
+   abd pain, diarrhea, and HTN.
+   .
+   # Hypertension: The patient has a well-documented history of paroxysmal
+   hypertension related to pain, anxiety, narcotic withdrawal and
+   occassional poor medication and HD compliance. She reports taking all
+   of her medications.  Suspect contribution from acute abdominal pain and
+   GI distress.  Hx of presenting with BP up to 260/160 but most often
+   without evidence of end-organ ischemia, such as today.
+   - DC labetalol gtt
+   - Start nicardipine drip, goal SBP 180-200 today.
+   - Will continue home BP regimen of clonidine, labetalol, aliskiren,
+   nifedipine, and hydralazine
+   - Control pain per protocol with dilaudid 2mg po q 4HR PRN, hold on IV
+   pain medications unless pt unable to tolerate po
+   - HD per renal recs
+   .
+   # abdominal pain/diarrhea: clinically consistent with gastroenteritis.
+   Recent antibiotics and multiple hospital stays concerning for cdiff
+   colitis, though viral gastroenteritis is also possible.  Medication
+   effect also possible.  Lastly, she has a history of thrombogenesis, so
+   ischemic colitis is possible though her lactate is normal.  KUB showing
+   fullness c/w with ascites, no known history of liver disease, though
+   she has had chronic elevated LFTs. Chronic elevated AP, GGT sent in ED.
+   - stool studies
+   - LFTs
+   - abd u/s for ascites
+   - f/u GGT
+   - symptomatic care with PO dilaudid
+   .
+   # SLE: continue prednisone at 4 mg PO daily
+   .
+   # ESRD: Renal following, continue dialysis per renal recs.
+   .
+   # Coagulopathy: patient on lifetime anticoagulation for hx of multiple
+   thrombotic events, INR subtherapuetic.
+   - continue coumadin
+   - heparin bridge until therapeutic
+   .
+   # HOCM: evidence of myocardial hypertrophy on Echo. Currently not
+   symptomatic.
+   -Continue labetalol
+   .
+   # Pain management:
+   - 2mg PO q 4hrs
+   .
+   # FEN/GI - regular diet, monitor lytes
+   .
+   # Access - HD catheter, PIV
+   .
+   # Code - FULL
+   .
+   # Dispo - ICU
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Dialysis Catheter - [**2142-3-14**] 01:14 PM
+   20 Gauge - [**2142-3-14**] 02:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt, coumadin)
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU

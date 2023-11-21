@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+  <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+  <property name="hibernate.connection.url">jdbc:mysql://192.168.1.24:3306/mimiciiiv14?serverTimezone=America/New_York</property>
+  <property name="hibernate.connection.username">credentialuser</property>
+  <property name="hibernate.connection.password">dxbcamel</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="hibernate.jdbc.time_zone">America/New_York</property>
+  <property name="hibernate.search.autoregister_listeners">false</property>
+  <property name="hibernate.show_sql">false</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <property name="hibernate.connection.useUnicode">true</property>
+  <property name="hibernate.connection.characterEncoding">UTF-8</property>
+  <property name="hibernate.max_fetch_depth">2</property>
+  <property name="javax.persistence.validation.mode">none</property>
+  <property name="conection_pool_size">13</property>
+  <property name="hibernate.dbcp.initialSize">8</property>
+  <property name="hibernate.dbcp.maxActive">20</property>
+  <property name="hibernate.dbcp.maxIdle">20</property>
+  <property name="hibernate.dbcp.minIdle">0</property>
+  <mapping class="com.ibm.nlp.model.mimic3.NoteEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.NoteEventInfo"/>
+  <mapping class="com.ibm.nlp.model.mimic3.Annotation"/>
+  <mapping class="com.ibm.nlp.model.mimic3.Prescription"/>
+  <mapping class="com.ibm.nlp.model.mimic3.Caregiver"/>
+  <mapping class="com.ibm.nlp.model.mimic3.LabEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.LabItem"/>
+  <mapping class="com.ibm.nlp.model.mimic3.Patients"/>
+  <mapping class="com.ibm.nlp.model.mimic3.MedicationAdverseEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.SocialHistory"/>
+  <mapping class="com.ibm.nlp.model.mimic3.Admission"/>
+  <mapping class="com.ibm.nlp.model.mimic3.RadiologyReport"/>
+  <mapping class="com.ibm.nlp.model.mimic3.EKGReport"/>
+  <mapping class="com.ibm.nlp.model.mimic3.EchoReport"/>
+  <mapping class="com.ibm.nlp.model.mimic3.DItem"/>
+  <mapping class="com.ibm.nlp.model.mimic3.ChartEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.MicrobiolgyEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.DCpt"/>
+  <mapping class="com.ibm.nlp.model.mimic3.CptEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.DrgCode"/>
+  <mapping class="com.ibm.nlp.model.mimic3.DIcdDiagnosis"/>
+  <mapping class="com.ibm.nlp.model.mimic3.ProceduresICD"/>
+  <mapping class="com.ibm.nlp.model.mimic3.ProcedureEvent"/>
+  <mapping class="com.ibm.nlp.model.mimic3.IcuStay"/>
+ </session-factory>
+</hibernate-configuration>
