@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>com.ibm.fhir</groupId>
 			<artifactId>fhir-client</artifactId>
-			<version>4.5.5</version>
+			<version>4.11.1</version>
 			<type>javadoc</type>
 		</dependency>
 		<dependency>

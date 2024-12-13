@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head></head>
+<body>
+	Provides all the hibernate DAO classes. These are all thread safe. And
+	can be instantiated either dynamically or statically. They all obey a
+	service interface which can be used for things like a RESTful service
+	or a something to have a consistent API.
+	<br>
+	<h2>ABout the DAOs</h2>
+	The DAO classes all live in _com.ibm.nlp.hibernate_ inside the project.
+	Some of them only handle one entity (like say <b>SocialHistoryDao</b> while
+	others like <b>BillingDao</b>b>, handle several entities (as MIMIC contains many
+	different billing code tables, such as DRGs, ICD, CPT, etc). Again you
+	should instantiate them by their service interface, however sometimes
+	you just want a local method in the DAO that nobody else would ever
+	want exposed, or internal to the DAO, in which case you don't add it to
+	the service interface and instantiate it in your class directly (please
+	note the documentation style for DAO classes is linked javadoc to the
+	interface's javadoc, which obviously won't work on a method not in the
+	service.
+</body>
+</html>
