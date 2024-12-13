@@ -1,4 +1,6 @@
 # ACDTester Inersource Project
+[![Super-Linter](https://github.com/henryhbk/AcdTester/actions/workflows/maven.yml/badge.svg)]([https://github.com/marketplace/actions/super-linter](https://github.com/marketplace/actions/setup-maven-action))
+
 THis project is for using the MIMIC III database for testing/traing ACD (The annotator for Clinical Data). It is a Maven based project and will pull in both the IBM FHIR server along with the ACD Java APIs. The MIMIC III data is represented in a HIbernate 5 entity set and each of the various tables have hibernate entities that represent them. The entities (and database) have been enriched with syntheic information to make the database more usable (such as all patients have names/addresses and social determinants).
 
 ## For Contributors/Consumers
